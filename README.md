@@ -20,3 +20,6 @@ npm install lite-server@2.3.0 --save-dev
 npm install concurrently@3.4.0 --save-dev
 ```
 3. Run project
+```sh
+Use a terminal of your choice open the project folder, run <strong>npm start</strong>
+```
