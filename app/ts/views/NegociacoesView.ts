@@ -1,11 +1,12 @@
-namespace Views {
+import { View } from './View';
+import { Negociacoes } from '../models/index';
 
-    export class NegociacoesView extends Views.View<Negociacoes>{
+export class NegociacoesView extends View<Negociacoes>{
 
 
-        template(model: Negociacoes): string {
+    template(model: Negociacoes): string {
 
-            return `
+        return `
                 <table class="table table-hover table-bordered">
                     <thead>
                         <tr>
@@ -18,7 +19,7 @@ namespace Views {
         
                     <tbody>
                     ${model.retornaArray().map(negociacao =>
-                `<tr>
+            `<tr>
                             <td>${negociacao.data.getUTCDate()}/${negociacao.data.getUTCMonth() + 1}/${negociacao.data.getFullYear()}</td>
                             <td>${negociacao.quantidade}</td>
                             <td>${negociacao.valor}</td>
@@ -32,8 +33,7 @@ namespace Views {
                     </tfoot>
                 </table>               
                 `
-        }
-
     }
 
 }
+
