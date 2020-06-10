@@ -12,12 +12,9 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/byJohnJava/foursysbank.git
 ```
-2. Install NPM packages below
+2. Install NPM packages
 ```sh
-npm install typescript@2.3.2 --save-dev
-npm install @types/jquery@2.0.42 --save-dev
-npm install lite-server@2.3.0 --save-dev
-npm install concurrently@3.4.0 --save-dev
+npm install
 ```
 3. Run project
 ```sh
