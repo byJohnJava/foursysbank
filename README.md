@@ -21,5 +21,5 @@ npm install concurrently@3.4.0 --save-dev
 ```
 3. Run project
 ```sh
-Use a terminal of your choice open the project folder, run npm start
+Use a terminal of your choice, open the project folder and run npm start
 ```
